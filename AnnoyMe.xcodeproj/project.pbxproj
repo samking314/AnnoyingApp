@@ -15,6 +15,7 @@
 		3CE8B5932211BD1B0009D942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE8B5912211BD1B0009D942 /* LaunchScreen.storyboard */; };
 		3CE8B59E2211BD1B0009D942 /* AnnoyMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8B59D2211BD1B0009D942 /* AnnoyMeTests.swift */; };
 		3CE8B5A92211BD1B0009D942 /* AnnoyMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8B5A82211BD1B0009D942 /* AnnoyMeUITests.swift */; };
+		3CE8B5BA2211C1F30009D942 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8B5B92211C1F30009D942 /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3CE8B5A42211BD1B0009D942 /* AnnoyMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnnoyMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE8B5A82211BD1B0009D942 /* AnnoyMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnoyMeUITests.swift; sourceTree = "<group>"; };
 		3CE8B5AA2211BD1B0009D942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE8B5B92211C1F30009D942 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		3CE8B5842211BD180009D942 /* AnnoyMe */ = {
 			isa = PBXGroup;
 			children = (
+				3CE8B5B82211C1DA0009D942 /* Helpers */,
 				3CE8B5B72211BEBE0009D942 /* AppDelegate */,
 				3CE8B5B62211BEA40009D942 /* ViewControllers */,
 				3CE8B5892211BD180009D942 /* Main.storyboard */,
@@ -142,6 +145,14 @@
 				3CE8B5852211BD180009D942 /* AppDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3CE8B5B82211C1DA0009D942 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3CE8B5B92211C1F30009D942 /* Notifications.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE8B5BA2211C1F30009D942 /* Notifications.swift in Sources */,
 				3CE8B5882211BD180009D942 /* ViewController.swift in Sources */,
 				3CE8B5862211BD180009D942 /* AppDelegate.swift in Sources */,
 				3CE8B58E2211BD180009D942 /* AnnoyMe.xcdatamodeld in Sources */,
