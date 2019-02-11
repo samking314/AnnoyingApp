@@ -8,15 +8,23 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let center = UNUserNotificationCenter.current()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Request permission to display alerts and play sounds.
+        center.requestAuthorization(options: [.alert, .sound])
+        { (granted, error) in
+            // Enable or disable features based on authorization.
+        }
+        
         return true
     }
 
