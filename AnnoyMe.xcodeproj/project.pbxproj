@@ -99,8 +99,8 @@
 		3CE8B5842211BD180009D942 /* AnnoyMe */ = {
 			isa = PBXGroup;
 			children = (
-				3CE8B5852211BD180009D942 /* AppDelegate.swift */,
-				3CE8B5872211BD180009D942 /* ViewController.swift */,
+				3CE8B5B72211BEBE0009D942 /* AppDelegate */,
+				3CE8B5B62211BEA40009D942 /* ViewControllers */,
 				3CE8B5892211BD180009D942 /* Main.storyboard */,
 				3CE8B58F2211BD1B0009D942 /* Assets.xcassets */,
 				3CE8B5912211BD1B0009D942 /* LaunchScreen.storyboard */,
@@ -126,6 +126,22 @@
 				3CE8B5AA2211BD1B0009D942 /* Info.plist */,
 			);
 			path = AnnoyMeUITests;
+			sourceTree = "<group>";
+		};
+		3CE8B5B62211BEA40009D942 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CE8B5872211BD180009D942 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3CE8B5B72211BEBE0009D942 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3CE8B5852211BD180009D942 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
